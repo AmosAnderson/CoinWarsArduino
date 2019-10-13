@@ -6,7 +6,7 @@ unsigned int pulseCount = 0;
 
 void setup() {
   Serial.begin(9600);
-  Serial.write("9999#");
+  Serial.write("0#");
 
   // added INPUT_PULLUP to configure the pullup resistor (20K or 50K)
   pinMode(COIN_PIN, INPUT_PULLUP);
