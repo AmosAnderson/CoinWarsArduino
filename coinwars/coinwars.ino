@@ -20,7 +20,7 @@ void coinRead(uint8_t pulses) {
 
 void loop() {
   unsigned long duration;
-  duration = pulseInLong(COIN_PIN, HIGH, 200000); // was 250000
+  duration = pulseInLong(COIN_PIN, HIGH, 250000); // was 250000
 
   if (duration > 0)
   {
